@@ -1,4 +1,4 @@
-(footprint "CUI_RCJ-042" (version 20211014) (generator pcbnew)
+(footprint "CUI_RCJ-043" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 63DAE768)
   (attr through_hole)
@@ -6,7 +6,7 @@
     (effects (font (size 1.007819 1.007819) (thickness 0.15)))
     (tstamp 46d08cbb-0f31-4477-9dbb-5b297cdda90b)
   )
-  (fp_text value "CUI_RCJ-042" (at -3.102485 6.517495) (layer "F.Fab")
+  (fp_text value "CUI_RCJ-043" (at -3.102485 6.517495) (layer "F.Fab")
     (effects (font (size 1.006087 1.006087) (thickness 0.15)))
     (tstamp 043e0ba7-3fff-4c67-a3b2-db4addc04443)
   )
@@ -63,7 +63,7 @@
   (fp_circle (center -3.99 3.1) (end -3.89 3.1) (layer "F.Fab") (width 0.2) (fill none) (tstamp 37330ad0-94ac-4bca-9ad8-7a50f29ee3db))
   (pad "1" thru_hole oval (at -4 0) (size 2.4 4.8) (drill oval 1.3 3.4) (layers *.Cu *.Mask) (tstamp 239954f1-6710-45e3-ac0e-63fb0dc7ad01))
   (pad "2" thru_hole oval (at -8.5 0) (size 3.4 1.7) (drill oval 2.3 1) (layers *.Cu *.Mask) (tstamp 8d46eb74-1b8f-49da-aa27-f63d5411d25b))
-  (model "${KIPRJMOD}/packages3d/CUI_DEVICES_RCJ-042.step"
+  (model "${KIPRJMOD}/packages3d/CUI_DEVICES_RCJ-043.step"
     (offset (xyz -10 0 6.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
