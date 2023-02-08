@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "gameblaster")(type "KiCad")(uri "${KIPRJMOD}/gameblaster.kicad_sym")(options "")(descr ""))
+  (lib (name "RCJ-042")(type "KiCad")(uri "${KIPRJMOD}/RCJ-042.kicad_sym")(options "")(descr ""))
+  (lib (name "gameblaster-rescue")(type "KiCad")(uri "${KIPRJMOD}/gameblaster-rescue.kicad_sym")(options "")(descr ""))
+)
