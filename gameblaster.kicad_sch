@@ -6443,7 +6443,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 181.61 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 04e1ceed-18cf-4d16-a60e-8b84fb42586e)
-    (property "Reference" "C?" (id 0) (at 181.0639 167.6232 90))
+    (property "Reference" "C23" (id 0) (at 181.0639 167.6232 90))
     (property "Value" "1uF tant" (id 1) (at 181.0639 170.1601 90))
     (property "Footprint" "gameblaster:CAPAP100" (id 2) (at 181.61 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7094,7 +7094,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 181.61 158.75 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c08901b8-33b1-4c09-abd5-c90fae277cfd)
-    (property "Reference" "C?" (id 0) (at 181.0639 153.6532 90))
+    (property "Reference" "C17" (id 0) (at 181.0639 153.6532 90))
     (property "Value" "1uF tant" (id 1) (at 181.0639 156.1901 90))
     (property "Footprint" "gameblaster:CAPAP100" (id 2) (at 181.61 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7192,7 +7192,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 218.44 78.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid de5081d7-c9ca-401c-b128-a39de91cb81e)
-    (property "Reference" "R?" (id 0) (at 220.98 77.47 0))
+    (property "Reference" "R9" (id 0) (at 220.98 77.47 0))
     (property "Value" "10K" (id 1) (at 219.71 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -7327,6 +7327,9 @@
     (path "/00000000-0000-0000-0000-000063e068de"
       (reference "C16") (unit 1) (value "0.1uF") (footprint "gameblaster:CAPAC200")
     )
+    (path "/c08901b8-33b1-4c09-abd5-c90fae277cfd"
+      (reference "C17") (unit 1) (value "1uF tant") (footprint "gameblaster:CAPAP100")
+    )
     (path "/00000000-0000-0000-0000-000063e0a803"
       (reference "C18") (unit 1) (value "0.1uF") (footprint "gameblaster:CAPAC200")
     )
@@ -7341,6 +7344,9 @@
     )
     (path "/c802e8ef-a10f-432f-a168-88aaec11a175"
       (reference "C22") (unit 1) (value "680pF") (footprint "gameblaster:CAPAC200")
+    )
+    (path "/04e1ceed-18cf-4d16-a60e-8b84fb42586e"
+      (reference "C23") (unit 1) (value "1uF tant") (footprint "gameblaster:CAPAP100")
     )
     (path "/00000000-0000-0000-0000-00006403d753"
       (reference "C25") (unit 1) (value "680pF") (footprint "gameblaster:CAPAC200")
@@ -7380,12 +7386,6 @@
     )
     (path "/00000000-0000-0000-0000-000063e203e2"
       (reference "C38") (unit 1) (value "680pF") (footprint "gameblaster:CAPAC200")
-    )
-    (path "/04e1ceed-18cf-4d16-a60e-8b84fb42586e"
-      (reference "C?") (unit 1) (value "1uF tant") (footprint "gameblaster:CAPAP100")
-    )
-    (path "/c08901b8-33b1-4c09-abd5-c90fae277cfd"
-      (reference "C?") (unit 1) (value "1uF tant") (footprint "gameblaster:CAPAP100")
     )
     (path "/00000000-0000-0000-0000-000063e2477d"
       (reference "F1") (unit 1) (value "MountingHole") (footprint "gameblaster:MNT_KEYSTONE_9202")
@@ -7498,6 +7498,9 @@
     (path "/3bd212d9-c0e6-471f-ab5e-86ab9156e5e9"
       (reference "R8") (unit 1) (value "470R") (footprint "gameblaster:RESA400")
     )
+    (path "/de5081d7-c9ca-401c-b128-a39de91cb81e"
+      (reference "R9") (unit 1) (value "10K") (footprint "gameblaster:RESA400")
+    )
     (path "/00000000-0000-0000-0000-000063dfd8aa"
       (reference "R11") (unit 1) (value "10K") (footprint "gameblaster:RESA400")
     )
@@ -7506,9 +7509,6 @@
     )
     (path "/fde4254a-94ed-4b07-b44b-e569e420ce93"
       (reference "R19") (unit 1) (value "4.7K") (footprint "gameblaster:RESA400")
-    )
-    (path "/de5081d7-c9ca-401c-b128-a39de91cb81e"
-      (reference "R?") (unit 1) (value "10K") (footprint "gameblaster:RESA400")
     )
     (path "/1bd276f5-593a-4fdb-b158-a8c28f21f786"
       (reference "RN1") (unit 1) (value "4.7K") (footprint "Resistor_THT:R_Array_SIP8")
