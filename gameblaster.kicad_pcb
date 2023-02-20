@@ -4489,7 +4489,7 @@
   (gr_text "JLCJLCJLCJLC" (at 191.516 133.096) (layer "B.SilkS") (tstamp 7b150bcd-5eb3-430d-b46d-5d3b47bd06bd)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "Special Thanks:\nTubeTime - reverse engineering of the\n  big stupid DIP-40; DTACK circuit and\n  TEA2025B section from the Snark Barker;\n  copious footprints and silkscreen\nTronix - original transceiver/register\n  logic for card detection\nleadedsolder - generally being a \n  shithead and encouraging my terrible\n  ideas" (at 128.27 38.1) (layer "B.SilkS") (tstamp 95dd07b6-8596-481e-a6d9-34bf3b3f08a8)
+  (gr_text "Special Thanks:\nTubeTime - reverse engineering of the\n  original Game Blaster PCB; many circuits\n  borrowed; footprint library.\nTronix - original transceiver/register\n  logic for card detection\nWings - analog section consultation\nleaded solder - generally being a \n  shithead and encouraging my terrible\n  ideas" (at 128.27 38.1) (layer "B.SilkS") (tstamp 95dd07b6-8596-481e-a6d9-34bf3b3f08a8)
     (effects (font (size 0.9525 0.9525) (thickness 0.127)) (justify left mirror))
   )
   (gr_text "You shouldn't have built this.\nIt's a bad sound card." (at 184.912 129.032) (layer "B.SilkS") (tstamp a30b1f32-ac23-4be0-88b0-167d81394402)
